@@ -1,0 +1,69 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS</title>
+	<!--css links-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="container">
+		<!--ex1--text show--><hr>
+		<h2>Click the button to show the text</h2>
+		<button class="btn btn-dark" type="button" onclick="textshow()">show text</button>
+		<h3 id="st"></h3>
+
+		<!--ex2--text show--><hr>
+		<h2>Click the button to show the date</h2>
+		<button class="btn btn-dark" type="button" onclick="showDate()">show date</button>
+		<h3 id="sd">Date is:</h3>
+
+		<!--ex3--text change--><hr>
+		<h2>Click the button to change the text</h2>
+		<button class="btn btn-dark" type="button" onclick="changeText()">change text</button>
+		<h3 id="ct">Hi</h3>
+
+		<!--ex4--css change--><hr>
+		<h2>Click the button to change the css</h2>
+		<button class="btn btn-dark" type="button" onclick="changeColor()">change css</button>
+		<h3 id="color">What is text color?</h3>
+
+		<!--ex5--image change--><hr>
+		<h2>Click the button to change the image</h2>
+        <button class="btn btn-dark" type="button" onclick=" bulbOn()">Bulb On</button>
+        <button class="btn btn-dark" type="button" onclick=" bulbOff()">Bulb Off</button>
+        <img id="boo" src="images/off.gif" alt="">
+
+        <!--ex6--math change--> <hr>
+        <h2>Click the button to show the math</h2>
+        <button class="btn btn-dark" type="button" onclick="showMath()">Answer</button>
+        <h3 id="mc">4+5=</h3>
+
+        <!-- ex7--print page--> <hr>
+        <h2>Click the button to print the current page</h2>
+        <button class="btn btn-dark" type="button" onclick="printPage()">Print Page</button>
+
+          <!-- ex8 true or false --> <hr>
+        <h2>Click the button to show true or false</h2>
+        <button class="btn btn-dark" type="button" onclick="showTrue()">Show Result</button>
+        <h3 id="tf"></h3>
+
+        <!-- ex9 window alert--> <hr>
+        <h2>Is there any issue?(0/1)</h2>
+        <button class="btn btn-dark" type="button" onclick="winDow()">Find out</button>
+        <h3 id="ww"></h3>
+
+        <!-- ex20 JavaScript Numbers --> <hr>
+        <h2>JavaScript Numbers</h2>
+        <button class="btn btn-dark" type="button" onclick="numBers()">Click here</button>
+        <h3 id="nr"></h3>
+
+	</div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
