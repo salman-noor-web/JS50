@@ -1,2 +1,1 @@
-# JS50
-JS Examples
+https://salman-noor-web.github.io/JS50/
